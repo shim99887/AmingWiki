@@ -1,0 +1,2 @@
+# AmingWiki
+amingWiki
