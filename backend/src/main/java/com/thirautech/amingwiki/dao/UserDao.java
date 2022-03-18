@@ -8,4 +8,5 @@ import java.util.List;
 @Mapper
 public interface UserDao {
     public List<UserDto> findAllUserInfo();
+    public UserDto findAllUserInfoById(String id);
 }

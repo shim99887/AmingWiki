@@ -7,6 +7,10 @@
     <select id="findAllUserInfo" resultType="com.thirautech.amingwiki.dto.UserDto">
         SELECT * FROM WIKIUSER;
     </select>
-
+    <select id="findAllUserInfoById" parameterType="string" resultType="com.thirautech.amingwiki.dto.UserDto">
+        SELECT *
+        FROM WIKIUSER
+        WHERE userId = #{id, jdbcType=VARCHAR}
+    </select>
 </mapper>
 

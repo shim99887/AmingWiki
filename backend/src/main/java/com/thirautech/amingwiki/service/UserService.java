@@ -6,4 +6,5 @@ import java.util.List;
 
 public interface UserService {
     public List<UserDto> findAllUserInfo();
+    public UserDto findAllUserInfoById(String id);
 }

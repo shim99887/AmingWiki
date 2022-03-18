@@ -1,4 +1,4 @@
-package com.thirautech.config;
+package com.thirautech.amingwiki.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
